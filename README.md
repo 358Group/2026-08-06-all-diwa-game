@@ -1,4 +1,4 @@
-# 2026-08-06 — all-diwa-game
+# 2026-08-06 — all-diwa-game (Yono Games 2026)
 
 Date-scoped manager preview for **2026-08-06**.
 Does **not** replace any older undated repo.
@@ -7,5 +7,8 @@ Does **not** replace any older undated repo.
 https://358group.github.io/2026-08-06-all-diwa-game/
 
 ## Contents
-- Static GitHub Pages preview for this date only
-- `wordpress-theme/` for WordPress hosting
+- `wordpress-theme/` — WordPress block theme **all-diwa-game-ub** (Yono Games 2026 light layout)
+- EN + HI pages: Home, About, Contact, Disclaimer + 30 APK detail pages each
+
+## Local
+http://127.0.0.1:8083/
