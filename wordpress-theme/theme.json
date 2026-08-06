@@ -1,1 +1,522 @@
-{"$schema":"https://schemas.wp.org/wp/6.7/theme.json","version":3,"settings":{"appearanceTools":true,"layout":{"contentSize":"1100px","wideSize":"1180px"}},"templateParts":[{"name":"header","title":"Header","area":"header"},{"name":"footer","title":"Footer","area":"footer"}],"customTemplates":[{"name":"page-contact","title":"Contact","postTypes":["page"]},{"name":"page-disclaimer","title":"Disclaimer","postTypes":["page"]},{"name":"page-privacy","title":"Privacy","postTypes":["page"]},{"name":"page-terms","title":"Terms","postTypes":["page"]}]}
+{
+  "$schema": "https://schemas.wp.org/wp/6.7/theme.json",
+  "version": 3,
+  "settings": {
+    "appearanceTools": true,
+    "layout": {
+      "contentSize": "1100px",
+      "wideSize": "1180px"
+    }
+  },
+  "templateParts": [
+    {
+      "name": "header",
+      "title": "Header",
+      "area": "header"
+    },
+    {
+      "name": "footer",
+      "title": "Footer",
+      "area": "footer"
+    }
+  ],
+  "customTemplates": [
+    {
+      "name": "page-101z-app-hindi",
+      "title": "101Z App Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-101z-app",
+      "title": "101Z App",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-3patti-cards-game-hindi",
+      "title": "3Patti Cards Game Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-3patti-cards-game",
+      "title": "3Patti Cards Game",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-567-slots-hindi",
+      "title": "567 Slots Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-567-slots",
+      "title": "567 Slots",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-666e-rummy-hindi",
+      "title": "666E Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-666e-rummy",
+      "title": "666E Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-789-slots-hindi",
+      "title": "789 Slots Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-789-slots",
+      "title": "789 Slots",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-9-rummy-hindi",
+      "title": "9 Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-9-rummy",
+      "title": "9 Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-about-hindi",
+      "title": "About Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-about-us-hindi",
+      "title": "About Us Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-about-us",
+      "title": "About Us",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-about",
+      "title": "About",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-apna-ludo-hindi",
+      "title": "Apna Ludo Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-apna-ludo",
+      "title": "Apna Ludo",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-contact-hindi",
+      "title": "Contact Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-contact-us-hindi",
+      "title": "Contact Us Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-contact-us",
+      "title": "Contact Us",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-contact",
+      "title": "Contact",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-daman-game-hindi",
+      "title": "Daman Game Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-daman-game",
+      "title": "Daman Game",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-dhani-teen-patti-hindi",
+      "title": "Dhani Teen Patti Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-dhani-teen-patti",
+      "title": "Dhani Teen Patti",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-disclaimer-hindi",
+      "title": "Disclaimer Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-disclaimer",
+      "title": "Disclaimer",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-diuwin-game-hindi",
+      "title": "Diuwin Game Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-diuwin-game",
+      "title": "Diuwin Game",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-dragon-vs-tiger-hindi",
+      "title": "Dragon Vs Tiger Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-dragon-vs-tiger",
+      "title": "Dragon Vs Tiger",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-hello-rummy-hindi",
+      "title": "Hello Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-hello-rummy",
+      "title": "Hello Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-hi",
+      "title": "Hi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-ind-bingo-hindi",
+      "title": "Ind Bingo Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-ind-bingo",
+      "title": "Ind Bingo",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-jj-rummy-hindi",
+      "title": "Jj Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-jj-rummy",
+      "title": "Jj Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-kash-rummy-hindi",
+      "title": "Kash Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-kash-rummy",
+      "title": "Kash Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-lucky-rummy-hindi",
+      "title": "Lucky Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-lucky-rummy",
+      "title": "Lucky Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-master-teen-patti-hindi",
+      "title": "Master Teen Patti Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-master-teen-patti",
+      "title": "Master Teen Patti",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mkm-bet-hindi",
+      "title": "Mkm Bet Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mkm-bet",
+      "title": "Mkm Bet",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mpl-teen-patti-hindi",
+      "title": "Mpl Teen Patti Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mpl-teen-patti",
+      "title": "Mpl Teen Patti",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mqm-bet-hindi",
+      "title": "Mqm Bet Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-mqm-bet",
+      "title": "Mqm Bet",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-predict-wingo-hindi",
+      "title": "Predict Wingo Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-predict-wingo",
+      "title": "Predict Wingo",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-predictor-aviator-hindi",
+      "title": "Predictor Aviator Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-predictor-aviator",
+      "title": "Predictor Aviator",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rainbow-rummy-hindi",
+      "title": "Rainbow Rummy Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rainbow-rummy",
+      "title": "Rainbow Rummy",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-real-cash-teen-patti-hindi",
+      "title": "Real Cash Teen Patti Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-real-cash-teen-patti",
+      "title": "Real Cash Teen Patti",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-500-bonus-hindi",
+      "title": "Rummy 500 Bonus Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-500-bonus",
+      "title": "Rummy 500 Bonus",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-aviator-hindi",
+      "title": "Rummy Aviator Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-aviator",
+      "title": "Rummy Aviator",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-bindaas-hindi",
+      "title": "Rummy Bindaas Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-bindaas",
+      "title": "Rummy Bindaas",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-bloc-hindi",
+      "title": "Rummy Bloc Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-bloc",
+      "title": "Rummy Bloc",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-club-hindi",
+      "title": "Rummy Club Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-club",
+      "title": "Rummy Club",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-east-hindi",
+      "title": "Rummy East Hindi",
+      "postTypes": [
+        "page"
+      ]
+    },
+    {
+      "name": "page-rummy-east",
+      "title": "Rummy East",
+      "postTypes": [
+        "page"
+      ]
+    }
+  ]
+}
