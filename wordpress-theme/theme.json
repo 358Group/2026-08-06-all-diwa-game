@@ -6,6 +6,14 @@
     "layout": {
       "contentSize": "1100px",
       "wideSize": "1180px"
+    },
+    "spacing": {
+      "blockGap": false
+    }
+  },
+  "styles": {
+    "spacing": {
+      "blockGap": "0"
     }
   },
   "templateParts": [

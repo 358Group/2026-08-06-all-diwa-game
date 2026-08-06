@@ -28,6 +28,12 @@ body{
   margin:0;font-family:var(--font);color:var(--yg-ink);
   background:var(--yg-bg);line-height:1.6;-webkit-font-smoothing:antialiased;
 }
+/* Kill WP block theme default 24px gap under header (white strip) */
+:where(.wp-site-blocks) > *{
+  margin-block-start:0!important;
+  margin-block-end:0!important;
+}
+.wp-site-blocks{padding:0}
 a{color:var(--yg-teal-dark);text-decoration:none}
 a:hover{color:#1a7a68;text-decoration:underline}
 img{max-width:100%;display:block}
